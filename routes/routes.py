@@ -3,7 +3,7 @@ from flask import request
 
 @app.route('/upload-image',methods=['POST'])
 def upload_image():
-    bucket='mybuck65'
+    bucket='fresher1'
     content_type=request.mimetype
     obj=request.files['file']
     filename=obj.filename
